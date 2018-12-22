@@ -1,0 +1,28 @@
+!Cleans 9anime
+9anime.*##.widget:has([id^=rcjsload],[id*=ScriptRoot],[id^=MarketGid],[id^=BB_SLOT])
+9anime.*###rufous-sandbox
+9anime.*##script[src*="bodelen"],[src*="bebi"],[src*="addthis"]
+9anime.*##script:inject(setTimeout-defuser.js)
+9anime.*##script:inject(addEventListener-defuser.js, *, *.popunder)
+9anime.*##script:inject(addEventListener-defuser.js, /^(mousedown|mouseup)/, *)
+9anime.*##body > [data-cfasync="false"]
+9anime.*##[style*="data:image/gif;base64"]
+9anime.*##body > div:has(div > [style*="width:"] > [href*="script"] > img)
+9anime.*###pop-register + script
+9anime.*###pop-register + script + script
+9anime.*###pop-register + script + script + script + script
+9anime.*###fb-root + script + script ~ *:not(.alertify):not([class^="modal"])
+9anime.*$popunder,important
+9anime.*.jpg$popup,important
+9anime.*.jpg$inline-script,important
+9anime.*sw.js$important
+cssgram.min.css$important
+addthis_widget.js$important
+zeroclipboard.min.js$important
+static.akacdn.ru^$popup,important
+
+!CLEANS 9anime streams
+mcloud.to###jwa
+streamango.com###videooverlay
+rapidvideo.*##script:inject(popads.net.js)
+streamango.com##script:inject(window.open-defuser.js)
