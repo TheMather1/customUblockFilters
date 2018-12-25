@@ -30,5 +30,16 @@
 !CLEANS 9anime streams
 mcloud.to###jwa
 streamango.com###videooverlay
-rapidvideo.*##script:inject(popads.net.js)
 streamango.com##script:inject(window.open-defuser.js)
+
+!CLEANS RapidVideo
+@@rapidvideo.com^$domain=9anime.ru
+@@rapidvideo.^$first-party
+@@playercdn.net^$domain=rapidvideo.com
+@@ugrastes.uk^$domain=rapidvideo.com
+@@yandex.ru^$domain=rapidvideo.com
+*popads.*$domain=rapidvideo.com
+*pushwhy.com*$domain=rapidvideo.com
+*pushnice.com*$domain=rapidvideo.com
+*pushame.com*$domain=rapidvideo.com
+*$script,domain=rapidvideo.com
