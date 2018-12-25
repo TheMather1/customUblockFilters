@@ -12,13 +12,15 @@
 9anime.*###pop-register + script + script
 9anime.*###fb-root + script + script ~ *:not(.alertify):not([class^="modal"])
 9anime.*$popunder,important
-9anime.*.jpg$popup,important
-9anime.*.jpg$inline-script,important
-9anime.*sw.js$important
-cssgram.min.css$important
-addthis_widget.js$important
-zeroclipboard.min.js$important
-static.akacdn.ru^$popup,important
+!9anime.*.jpg$popup,important
+!9anime.*.jpg$inline-script,important
+!9anime.*sw.js$important
+!cssgram.min.css$important
+!zeroclipboard.min.js$important
+!static.akacdn.ru^$popup,important
+tharbadir.com^$domain=9anime.ru
+pushwhy.com^$domain=9anime.ru
+s7.addthis.com^$domain=9anime.ru
 
 !CLEANS 9anime streams
 mcloud.to###jwa
