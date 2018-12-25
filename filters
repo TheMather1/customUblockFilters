@@ -24,6 +24,7 @@
 *$script,domain=9anime.ru
 *$inline-script,domain=9anime.ru
 9anime.*$script
+9anime.*/sw.js$important
 9anime.*##.text-center
 
 !CLEANS 9anime streams
