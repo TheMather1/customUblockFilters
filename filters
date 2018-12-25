@@ -18,9 +18,10 @@
 !cssgram.min.css$important
 !zeroclipboard.min.js$important
 !static.akacdn.ru^$popup,important
-tharbadir.com^$domain=9anime.ru
-pushwhy.com^$domain=9anime.ru
-s7.addthis.com^$domain=9anime.ru
+*tharbadir.com^$domain=9anime.ru
+*pushwhy.com^$domain=9anime.ru
+*addthis.com^$domain=9anime.ru
+*bebi.com^$script,domain=9anime.ru
 
 !CLEANS 9anime streams
 mcloud.to###jwa
