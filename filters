@@ -10,7 +10,6 @@
 9anime.*##body > div:has(div > [style*="width:"] > [href*="script"] > img)
 9anime.*###pop-register + script
 9anime.*###pop-register + script + script
-9anime.*###pop-register + script + script + script + script
 9anime.*###fb-root + script + script ~ *:not(.alertify):not([class^="modal"])
 9anime.*$popunder,important
 9anime.*.jpg$popup,important
