@@ -1,27 +1,30 @@
 !Cleans 9anime
-9anime.*##.widget:has([id^=rcjsload],[id*=ScriptRoot],[id^=MarketGid],[id^=BB_SLOT])
-9anime.*###rufous-sandbox
-9anime.*##script[src*="bodelen"],[src*="bebi"],[src*="addthis"]
-9anime.*##script:inject(setTimeout-defuser.js)
-9anime.*##script:inject(addEventListener-defuser.js, *, *.popunder)
-9anime.*##script:inject(addEventListener-defuser.js, /^(mousedown|mouseup)/, *)
-9anime.*##body > [data-cfasync="false"]
-9anime.*##[style*="data:image/gif;base64"]
-9anime.*##body > div:has(div > [style*="width:"] > [href*="script"] > img)
-9anime.*###pop-register + script
-9anime.*###pop-register + script + script
-9anime.*###fb-root + script + script ~ *:not(.alertify):not([class^="modal"])
-9anime.*$popunder,important
-!9anime.*.jpg$popup,important
-!9anime.*.jpg$inline-script,important
-!9anime.*sw.js$important
-!cssgram.min.css$important
-!zeroclipboard.min.js$important
-!static.akacdn.ru^$popup,important
-*tharbadir.com^$domain=9anime.ru
-*pushwhy.com^$domain=9anime.ru
-*addthis.com^$domain=9anime.ru
-*bebi.com^$script,domain=9anime.ru
+@@9anime.*$first-party
+@@*akacdn.ru*$domain=9anime.ru
+@@*doubleclick.net*$domain=9anime.ru
+@@*twitter.com*$domain=9anime.ru
+@@*twitter.com*$domain=platform.twitter.com
+@@*facebook.*$domain=9anime.ru
+@@*amung.us*$domain=9anime.ru
+@@*google.*$domain=9anime.ru
+@@*gstatic.*$domain=9anime.ru
+@@*google-analytics.*$domain=9anime.ru
+@@*googleapis.*$domain=9anime.ru
+*tharbadir.com*$domain=9anime.ru
+*pushwhy.com*$domain=9anime.ru
+*addthis.com*$domain=9anime.ru
+*bebi.com*$domain=9anime.ru
+*steepto.com*$domain=9anime.ru
+*mgid.com*$domain=9anime.ru
+*revrtb.com*$domain=9anime.ru
+*pushame.com*$domain=9anime.ru
+*bodelen.com*$domain=9anime.ru
+*bit.ly*$subdocument,domain=9anime.ru
+*defpush.com*$domain=9anime.ru
+*$script,domain=9anime.ru
+*$inline-script,domain=9anime.ru
+9anime.*$script
+9anime.*##.text-center
 
 !CLEANS 9anime streams
 mcloud.to###jwa
