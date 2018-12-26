@@ -1,82 +1,83 @@
 !Cleans 9anime
+^$image,domain=9anime.ru
+^$other,domain=9anime.ru
+^$script,domain=9anime.ru
+^$stylesheet,domain=9anime.ru
+^$subdocument,domain=9anime.ru
+^$websocket,domain=9anime.ru
+^$xmlhttprequest,domain=9anime.ru
 @@9anime.ru$first-party
 @@akacdn.ru$domain=9anime.ru
+@@disqus.com$domain=9anime.ru
+@@disquscdn.com$domain=9anime.ru|disqus.com|discuscdn.com
 @@doubleclick.net$domain=9anime.ru
-@@twitter.com$domain=9anime.ru
-@@twitter.com$first-party
 @@facebook.com$domain=9anime.ru
 @@facebook.net$domain=9anime.ru
-@@amung.us$domain=9anime.ru
 @@google.com$domain=9anime.ru
-@@gstatic.com$domain=9anime.ru
 @@google-analytics.com$domain=9anime.ru
 @@googleapis.com$domain=9anime.ru
-tharbadir.com$domain=9anime.ru
-pushwhy.com$domain=9anime.ru
+@@amung.us$domain=9anime.ru
+@@gstatic.com$domain=9anime.ru
+@@twitter.com$domain=9anime.ru|twitter.com
 addthis.com$domain=9anime.ru
 addthisedge.com$domain=9anime.ru
 bebi.com$domain=9anime.ru
-steepto.com$domain=9anime.ru
-mgid.com$domain=9anime.ru
-revrtb.com$domain=9anime.ru
-pushame.com$domain=9anime.ru
-bodelen.com$domain=9anime.ru
 bit.ly$subdocument,domain=9anime.ru
+bodelen.com$domain=9anime.ru
 defpush.com$domain=9anime.ru
-^$script,domain=9anime.ru
-^$inline-script,domain=9anime.ru
-^$subdocument,domain=9anime.ru
-sw.js$important,domain=9anime.ru
-sw.js$important,domain=behind-the-scene
+disqusads.com$domain=9anime.ru|disqus.com|disquscdn.com
+eetseemp.net$domain=9anime.ru
+mgid.com$domain=9anime.ru
+pushnice.com$domain=9anime.ru|rapidvideo.com
+pushame.com$domain=9anime.ru|rapidvideo.com
+pushwhy.com$domain=9anime.ru|rapidvideo.com
+revrtb.com$domain=9anime.ru
+steepto.com$domain=9anime.ru
+tharbadir.com$domain=9anime.ru
+sw.js$important,domain=9anime.ru|behind-the-scene
 zeroclipboard.min.js$important,domain=9anime.ru
 9anime.*##.text-center
+9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
+
 
 !CLEANS RapidVideo
-@@rapidvideo.com$domain=9anime.ru
-@@rapidvideo.com$first-party
-@@playercdn.net$domain=rapidvideo.com
-@@yandex.ru$domain=rapidvideo.com
-ugrastes.uk$domain=rapidvideo.com
-popads.net$domain=rapidvideo.com
-pushwhy.com$domain=rapidvideo.com
-pushnice.com$domain=rapidvideo.com
-pushame.com$domain=rapidvideo.com
 ^$script,domain=rapidvideo.com
+@@rapidvideo.com$domain=9anime.ru|rapidvideo.com
+@@playercdn.net$domain=rapidvideo.com
+popads.net$domain=rapidvideo.com
+ugrastes.uk$domain=rapidvideo.com
+yandex.ru$domain=rapidvideo.com
 
 !CLEANS MyCloud
-@@mcloud.to$domain=9anime.ru
-@@mcloud.to$first-party
+^$script,domain=mcloud.to
+@@mcloud.to$domain=9anime.ru|mcloud.to
 @@google-analytics.com$domain=mcloud.to
 @@googleapis.com$domain=mcloud.to
 @@gstatic.com$domain=mcloud.to
 @@jwpcdn.com$domain=mcloud.to
-^$script,domain=mcloud.to
 
 !CLEANS Mp4upload
-@@mp4upload.com$domain=9anime.ru
-@@mp4upload.com$first-party
+^$popup,domain=mp4upload.com
+^$script,domain=mp4upload.com
+^$subdocument,domain=mp4upload.com
+@@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@jwpcdn.com$domain=mp4upload.com
 @@google-analytics.com$domain=mp4upload.com
 @@googleapis.com$domain=mp4upload.com
-^$script,domain=mp4upload.com
-^$subdocument,domain=mp4upload.com
-^$popup,domain=mp4upload.com
 cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
-@@streamango.com$domain=9anime.ru
-@@streamango.com$first-party
-@@fruithosts.com$domain=streamango.com
-@@fruithosted.com$domain=streamango.com
+^$popup,domain=streamango.com
 ^$script,domain=streamango.com
 ^$subdocument,domain=streamango.com
-^$popup,domain=streamango.com
+@@streamango.com$domain=9anime.ru|streamango.com
+@@fruithosts.com$domain=streamango.com
+@@fruithosted.com$domain=streamango.com
 streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-@@openload.co$domain=9anime.ru
-@@openload.co$first-party
 ^$script,domain=openload.co
 ^$subdocument,domain=openload.co
+@@openload.co$domain=9anime.ru|openload.co
