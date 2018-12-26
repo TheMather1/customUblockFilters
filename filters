@@ -23,10 +23,10 @@ pushame.com^$domain=9anime.ru
 bodelen.com^$domain=9anime.ru
 bit.ly^$subdocument,domain=9anime.ru
 defpush.com^$domain=9anime.ru
-*$script,domain=9anime.ru
-*$inline-script,domain=9anime.ru
-*$subdocument,domain=9anime.ru
-9anime.*/sw.js$important
+$script,domain=9anime.ru
+$inline-script,domain=9anime.ru
+$subdocument,domain=9anime.ru
+sw.js$important
 9anime.*##.text-center
 
 !CLEANS RapidVideo
