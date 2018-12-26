@@ -44,7 +44,9 @@ zeroclipboard.min.js$important,domain=9anime.ru
 
 !CLEANS RapidVideo
 $script,domain=rapidvideo.com
-@@rapidvideo.com$domain=9anime.ru|rapidvideo.com
+$subdocument,domain=rapidvideo.com
+@@rapidvideo.com$domain=9anime.ru
+@@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
 c1.popads.net$domain=rapidvideo.com
 serve.popads.net$domain=rapidvideo.com
