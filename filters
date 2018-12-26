@@ -1,26 +1,26 @@
 !Cleans 9anime
 @@9anime.^$first-party
-@@*akacdn.ru*$domain=9anime.ru
-@@*doubleclick.net*$domain=9anime.ru
-@@*twitter.com*$domain=9anime.ru
-@@*twitter.com*$domain=platform.twitter.com
-@@*facebook.*$domain=9anime.ru
-@@*amung.us*$domain=9anime.ru
-@@*google.*$domain=9anime.ru
-@@*gstatic.*$domain=9anime.ru
-@@*google-analytics.*$domain=9anime.ru
-@@*googleapis.*$domain=9anime.ru
-*tharbadir.com*$domain=9anime.ru
-*pushwhy.com*$domain=9anime.ru
-*addthis.com*$domain=9anime.ru
-*bebi.com*$domain=9anime.ru
-*steepto.com*$domain=9anime.ru
-*mgid.com*$domain=9anime.ru
-*revrtb.com*$domain=9anime.ru
-*pushame.com*$domain=9anime.ru
-*bodelen.com*$domain=9anime.ru
-*bit.ly*$subdocument,domain=9anime.ru
-*defpush.com*$domain=9anime.ru
+@@akacdn.ru^$domain=9anime.ru
+@@doubleclick.net^$domain=9anime.ru
+@@^twitter.com^$domain=9anime.ru
+@@twitter.com^$domain=platform.twitter.com
+@@facebook.^$domain=9anime.ru
+@@amung.us^$domain=9anime.ru
+@@google.^$domain=9anime.ru
+@@gstatic.^$domain=9anime.ru
+@@google-analytics.^$domain=9anime.ru
+@@googleapis.^$domain=9anime.ru
+tharbadir.com^$domain=9anime.ru
+pushwhy.com^$domain=9anime.ru
+addthis.com^$domain=9anime.ru
+bebi.com^$domain=9anime.ru
+steepto.com^$domain=9anime.ru
+mgid.com^$domain=9anime.ru
+revrtb.com^$domain=9anime.ru
+pushame.com^$domain=9anime.ru
+bodelen.com^$domain=9anime.ru
+bit.ly^$subdocument,domain=9anime.ru
+defpush.com^$domain=9anime.ru
 *$script,domain=9anime.ru
 *$inline-script,domain=9anime.ru
 *$subdocument,domain=9anime.ru
@@ -33,10 +33,10 @@
 @@playercdn.net^$domain=rapidvideo.com
 @@yandex.ru^$domain=rapidvideo.com
 ugrastes.uk^$domain=rapidvideo.com
-*popads.*$domain=rapidvideo.com
-*pushwhy.com*$domain=rapidvideo.com
-*pushnice.com*$domain=rapidvideo.com
-*pushame.com*$domain=rapidvideo.com
+popads.^$domain=rapidvideo.com
+^pushwhy.com^$domain=rapidvideo.com
+^pushnice.com^$domain=rapidvideo.com
+^pushame.com^$domain=rapidvideo.com
 *$script,domain=rapidvideo.com
 
 !CLEANS MyCloud
@@ -51,9 +51,9 @@ ugrastes.uk^$domain=rapidvideo.com
 !CLEANS Mp4upload
 @@mp4upload.com^$domain=9anime.ru
 @@mp4upload.com^$first-party
-@@*jwpcdn.com*$domain=mp4upload.com
-@@*google-analytics.*$domain=mp4upload.com
-@@*googleapis.*$domain=mp4upload.com
+@@jwpcdn.com^$domain=mp4upload.com
+@@google-analytics.^$domain=mp4upload.com
+@@googleapis.^$domain=mp4upload.com
 *$script,domain=mp4upload.com
 *$subdocument,domain=mp4upload.com
 mp4upload.com/cpw.html$important
