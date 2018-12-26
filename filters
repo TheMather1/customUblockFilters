@@ -37,7 +37,7 @@ zeroclipboard.min.js$important,domain=9anime.ru
 @@playercdn.net^$domain=rapidvideo.com
 @@yandex.ru^$domain=rapidvideo.com
 ugrastes.uk^$domain=rapidvideo.com
-popads.com^$domain=rapidvideo.com
+popads.net^$domain=rapidvideo.com
 pushwhy.com^$domain=rapidvideo.com
 pushnice.com^$domain=rapidvideo.com
 pushame.com^$domain=rapidvideo.com
@@ -60,7 +60,8 @@ pushame.com^$domain=rapidvideo.com
 @@googleapis.com^$domain=mp4upload.com
 ^$script,domain=mp4upload.com
 ^$subdocument,domain=mp4upload.com
-mp4upload.com/cpw.html$important
+^$popup,domain=mp4upload.com
+cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
