@@ -27,11 +27,6 @@
 9anime.*/sw.js$important
 9anime.*##.text-center
 
-!CLEANS 9anime streams
-mcloud.to###jwa
-streamango.com###videooverlay
-streamango.com##script:inject(window.open-defuser.js)
-
 !CLEANS RapidVideo
 @@rapidvideo.com^$domain=9anime.ru
 @@rapidvideo.^$first-party
@@ -64,7 +59,7 @@ streamango.com##script:inject(window.open-defuser.js)
 mp4upload.com/cpw.html$important
 mp4upload.com###overlay
 
-!CLEANS Streamango - TODO: Fix popups
+!CLEANS Streamango
 @@streamango.com^$domain=9anime.ru
 @@streamango.com^$first-party
 @@fruithosts$domain=streamango.com
@@ -72,3 +67,5 @@ mp4upload.com###overlay
 *$script,domain=streamango.com
 *$subdocument,domain=streamango.com
 *$popup,domain=streamango.com
+streamango.com###videooverlay
+streamango.com##script:inject(window.open-defuser.js)
