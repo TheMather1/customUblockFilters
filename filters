@@ -36,7 +36,7 @@ pushwhy.com$domain=9anime.ru|rapidvideo.com
 revrtb.com$domain=9anime.ru
 steepto.com$domain=9anime.ru
 tharbadir.com$domain=9anime.ru
-sw.js$important,domain=9anime.ru|behind-the-scene
+9anime.ru/sw.js$important,domain=9anime.ru|behind-the-scene
 zeroclipboard.min.js$important,domain=9anime.ru
 9anime.*##.text-center
 9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
