@@ -23,6 +23,7 @@
 *defpush.com*$domain=9anime.ru
 *$script,domain=9anime.ru
 *$inline-script,domain=9anime.ru
+*$subdocument,domain=9anime.ru
 9anime.*$script
 9anime.*/sw.js$important
 9anime.*##.text-center
@@ -43,3 +44,12 @@ streamango.com##script:inject(window.open-defuser.js)
 *pushnice.com*$domain=rapidvideo.com
 *pushame.com*$domain=rapidvideo.com
 *$script,domain=rapidvideo.com
+
+!CLEANS MyCloud
+@@mcloud.to^$domain=9anime.ru
+@@mcloud.to$first-party
+@@*google-analytics.*$domain=mcloud.to
+@@*googleapis.*$domain=mcloud.to
+@@gstatic.com$domain=mcloud.to
+@@jwpcdn.com^$domain=mcloud.to
+*$script,domain=mcloud.to
