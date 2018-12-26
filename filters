@@ -1,15 +1,15 @@
 !Cleans 9anime
-@@9anime.^$first-party
+@@9anime.ru^$first-party
 @@akacdn.ru^$domain=9anime.ru
 @@doubleclick.net^$domain=9anime.ru
 @@platform.twitter.com^$domain=9anime.ru
 @@platform.twitter.com^$first-party
-@@staticxx.facebook.^$domain=9anime.ru
-@@connect.facebook.^$domain=9anime.ru
+@@staticxx.facebook.net^$domain=9anime.ru
+@@connect.facebook.net^$domain=9anime.ru
 @@whos.amung.us^$domain=9anime.ru
-@@google.^$domain=9anime.ru
-@@www.gstatic.^$domain=9anime.ru
-@@www.google-analytics.^$domain=9anime.ru
+@@google.com^$domain=9anime.ru
+@@www.gstatic.com^$domain=9anime.ru
+@@www.google-analytics.com^$domain=9anime.ru
 @@googleapis.^$domain=9anime.ru
 tharbadir.com^$domain=9anime.ru
 pushwhy.com^$domain=9anime.ru
