@@ -43,7 +43,7 @@ zeroclipboard.min.js$important,domain=9anime.ru
 
 
 !CLEANS RapidVideo
-^$script,domain=rapidvideo.com
+$script,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
 c1.popads.net$domain=rapidvideo.com
@@ -52,7 +52,7 @@ ugrastes.uk$domain=rapidvideo.com
 mc.yandex.ru$domain=rapidvideo.com
 
 !CLEANS MyCloud
-^$script,domain=mcloud.to
+$script,domain=mcloud.to
 @@mcloud.to$domain=9anime.ru|mcloud.to
 @@google-analytics.com$domain=mcloud.to
 @@googleapis.com$domain=mcloud.to
@@ -60,9 +60,9 @@ mc.yandex.ru$domain=rapidvideo.com
 @@jwpcdn.com$domain=mcloud.to
 
 !CLEANS Mp4upload
-^$popup,domain=mp4upload.com
-^$script,domain=mp4upload.com
-^$subdocument,domain=mp4upload.com
+$popup,domain=mp4upload.com
+$script,domain=mp4upload.com
+$subdocument,domain=mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@jwpcdn.com$domain=mp4upload.com
 @@google-analytics.com$domain=mp4upload.com
@@ -71,9 +71,9 @@ cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
-^$popup,domain=streamango.com
-^$script,domain=streamango.com
-^$subdocument,domain=streamango.com
+$popup,domain=streamango.com
+$script,domain=streamango.com
+$subdocument,domain=streamango.com
 @@streamango.com$domain=9anime.ru|streamango.com
 @@fruithosts.com$domain=streamango.com
 @@fruithosted.com$domain=streamango.com
@@ -81,6 +81,6 @@ streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-^$script,domain=openload.co
-^$subdocument,domain=openload.co
+$script,domain=openload.co
+$subdocument,domain=openload.co
 @@openload.co$domain=9anime.ru|openload.co
