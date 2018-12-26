@@ -69,3 +69,9 @@ mp4upload.com###overlay
 *$popup,domain=streamango.com
 streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
+
+!CLEANS OpenLoad
+@@openload.co^$domain=9anime.ru
+@@openload.co^$first-party
+*$script,domain=openload.co
+*$subdocument,domain=openload.co
