@@ -1,5 +1,5 @@
 !Cleans 9anime
-@@9anime.*$first-party
+@@9anime.^$first-party
 @@*akacdn.ru*$domain=9anime.ru
 @@*doubleclick.net*$domain=9anime.ru
 @@*twitter.com*$domain=9anime.ru
@@ -46,7 +46,7 @@ streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS MyCloud
 @@mcloud.to^$domain=9anime.ru
-@@mcloud.to$first-party
+@@mcloud.to^$first-party
 @@*google-analytics.*$domain=mcloud.to
 @@*googleapis.*$domain=mcloud.to
 @@gstatic.com$domain=mcloud.to
