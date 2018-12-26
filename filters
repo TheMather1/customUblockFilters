@@ -52,3 +52,14 @@ streamango.com##script:inject(window.open-defuser.js)
 @@gstatic.com$domain=mcloud.to
 @@jwpcdn.com^$domain=mcloud.to
 *$script,domain=mcloud.to
+
+!CLEANS Mp4upload
+@@mp4upload.com^$domain=9anime.ru
+@@mp4upload.com^$first-party
+@@*jwpcdn.com*$domain=mp4upload.com
+@@*google-analytics.*$domain=mp4upload.com
+@@*googleapis.*$domain=mp4upload.com
+*$script,domain=mp4upload.com
+*$subdocument,domain=mp4upload.com
+mp4upload.com/cpw.html$important
+mp4upload.com###overlay
