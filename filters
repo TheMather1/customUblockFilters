@@ -27,6 +27,7 @@ defpush.com^$domain=9anime.ru
 ^$inline-script,domain=9anime.ru
 ^$subdocument,domain=9anime.ru
 sw.js$important,domain=9anime.ru
+sw.js$important,domain=behind-the-scene
 zeroclipboard.min.js$important,domain=9anime.ru
 9anime.*##.text-center
 
@@ -45,20 +46,20 @@ $script,domain=rapidvideo.com
 !CLEANS MyCloud
 @@mcloud.to^$domain=9anime.ru
 @@mcloud.to^$first-party
-@@www.google-analytics.com$domain=mcloud.to
-@@googleapis.com*$domain=mcloud.to
-@@gstatic.com$domain=mcloud.to
+@@www.google-analytics.com^$domain=mcloud.to
+@@googleapis.com^$domain=mcloud.to
+@@gstatic.com^$domain=mcloud.to
 @@jwpcdn.com^$domain=mcloud.to
-$script,domain=mcloud.to
+^$script,domain=mcloud.to
 
 !CLEANS Mp4upload
 @@mp4upload.com^$domain=9anime.ru
 @@mp4upload.com^$first-party
 @@jwpcdn.com^$domain=mp4upload.com
-@@google-analytics.^$domain=mp4upload.com
-@@googleapis.^$domain=mp4upload.com
-$script,domain=mp4upload.com
-$subdocument,domain=mp4upload.com
+@@www.google-analytics.com^$domain=mp4upload.com
+@@googleapis.com^$domain=mp4upload.com
+^$script,domain=mp4upload.com
+^$subdocument,domain=mp4upload.com
 mp4upload.com/cpw.html$important
 mp4upload.com###overlay
 
@@ -67,14 +68,14 @@ mp4upload.com###overlay
 @@streamango.com^$first-party
 @@fruithosts.com^$domain=streamango.com
 @@fruithosted.com^$domain=streamango.com
-$script,domain=streamango.com
-$subdocument,domain=streamango.com
-$popup,domain=streamango.com
+^$script,domain=streamango.com
+^$subdocument,domain=streamango.com
+^$popup,domain=streamango.com
 streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
 @@openload.co^$domain=9anime.ru
 @@openload.co^$first-party
-$script,domain=openload.co
-$subdocument,domain=openload.co
+^$script,domain=openload.co
+^$subdocument,domain=openload.co
