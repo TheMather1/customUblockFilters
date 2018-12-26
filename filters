@@ -46,9 +46,10 @@ zeroclipboard.min.js$important,domain=9anime.ru
 ^$script,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
-popads.net$domain=rapidvideo.com
+c1.popads.net$domain=rapidvideo.com
+serve.popads.net$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
-yandex.ru$domain=rapidvideo.com
+mc.yandex.ru$domain=rapidvideo.com
 
 !CLEANS MyCloud
 ^$script,domain=mcloud.to
