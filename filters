@@ -63,3 +63,12 @@ streamango.com##script:inject(window.open-defuser.js)
 *$subdocument,domain=mp4upload.com
 mp4upload.com/cpw.html$important
 mp4upload.com###overlay
+
+!CLEANS Streamango - TODO: Fix popups
+@@streamango.com^$domain=9anime.ru
+@@streamango.com^$first-party
+@@fruithosts$domain=streamango.com
+@@fruithosted$domain=streamango.com
+*$script,domain=streamango.com
+*$subdocument,domain=streamango.com
+*$popup,domain=streamango.com
