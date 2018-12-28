@@ -19,11 +19,9 @@ $xmlhttprequest,domain=9anime.ru
 @@amung.us$domain=9anime.ru
 @@gstatic.com$domain=9anime.ru
 @@twitter.com$domain=9anime.ru|twitter.com
-m.addthis.com$domain=9anime.ru
-m.addthisedge.com$domain=9anime.ru
-c.bebi.com$domain=9anime.ru
-go.bebi.com$domain=9anime.ru
-trck.bebi.com$domain=9anime.ru
+addthis.com$domain=9anime.ru
+addthisedge.com$domain=9anime.ru
+bebi.com$domain=9anime.ru
 bit.ly$domain=9anime.ru
 bodelen.com^$domain=9anime.ru
 defpush.com^$domain=9anime.ru
@@ -48,10 +46,9 @@ $subdocument,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
-c1.popads.net$domain=rapidvideo.com
-serve.popads.net$domain=rapidvideo.com
+popads.net$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
-mc.yandex.ru$domain=rapidvideo.com
+yandex.ru$domain=rapidvideo.com
 
 !CLEANS MyCloud
 $script,domain=mcloud.to
