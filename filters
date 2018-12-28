@@ -47,6 +47,7 @@ $subdocument,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|9anime.to
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
+adblock-proxy.rtty.in$domain=rapidvideo.com
 adsco.re$domain=rapidvideo.com
 popads.net$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
