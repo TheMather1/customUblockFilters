@@ -1,41 +1,42 @@
 !Cleans 9anime
-$image,domain=9anime.ru
-$other,domain=9anime.ru
-$script,domain=9anime.ru
-$stylesheet,domain=9anime.ru
-$subdocument,domain=9anime.ru
-$websocket,domain=9anime.ru
-$xmlhttprequest,domain=9anime.ru
+$image,domain=9anime.ru1|9anime.to
+$other,domain=9anime.ru|9anime.to
+$script,domain=9anime.ru|9anime.to
+$stylesheet,domain=9anime.ru|9anime.to
+$subdocument,domain=9anime.ru|9anime.to
+$websocket,domain=9anime.ru|9anime.to
+$xmlhttprequest,domain=9anime.ru|9anime.to
 @@9anime.ru$first-party
-@@akacdn.ru$domain=9anime.ru
-@@disqus.com$domain=9anime.ru
-@@disquscdn.com$domain=9anime.ru|disqus.com|discuscdn.com
-@@doubleclick.net$domain=9anime.ru
-@@facebook.com$domain=9anime.ru
-@@facebook.net$domain=9anime.ru
-@@google.com$domain=9anime.ru
-@@google-analytics.com$domain=9anime.ru
-@@googleapis.com$domain=9anime.ru
-@@amung.us$domain=9anime.ru
-@@gstatic.com$domain=9anime.ru
-@@twitter.com$domain=9anime.ru|twitter.com
-addthis.com$domain=9anime.ru
-addthisedge.com$domain=9anime.ru
-bebi.com$domain=9anime.ru
-bit.ly$domain=9anime.ru
-bodelen.com^$domain=9anime.ru
-defpush.com^$domain=9anime.ru
-disqusads.com^$domain=9anime.ru|disqus.com|disquscdn.com
-eetseemp.net^$domain=9anime.ru
-mgid.com$domain=9anime.ru
-pushnice.com$domain=9anime.ru|rapidvideo.com
-pushame.com$domain=9anime.ru|rapidvideo.com
-pushwhy.com$domain=9anime.ru|rapidvideo.com
-revrtb.com$domain=9anime.ru
-steepto.com$domain=9anime.ru
-tharbadir.com$domain=9anime.ru
-9anime.ru/sw.js$important,domain=9anime.ru|behind-the-scene
-zeroclipboard.min.js$important,domain=9anime.ru
+@@9anime.to$first-party
+@@akacdn.ru$domain=9anime.ru|9anime.to
+@@disqus.com$domain=9anime.ru|9anime.to
+@@disquscdn.com$domain=9anime.ru|9anime.to|disqus.com|discuscdn.com
+@@doubleclick.net$domain=9anime.ru|9anime.to
+@@facebook.com$domain=9anime.ru|9anime.to
+@@facebook.net$domain=9anime.ru|9anime.to
+@@google.com$domain=9anime.ru|9anime.to
+@@google-analytics.com$domain=9anime.ru|9anime.to
+@@googleapis.com$domain=9anime.ru|9anime.to
+@@amung.us$domain=9anime.ru|9anime.to
+@@gstatic.com$domain=9anime.ru|9anime.to
+@@twitter.com$domain=9anime.ru|9anime.to|twitter.com
+addthis.com$domain=9anime.ru|9anime.to
+addthisedge.com$domain=9anime.ru|9anime.to
+bebi.com$domain=9anime.ru|9anime.to
+bit.ly$domain=9anime.ru|9anime.to
+bodelen.com^$domain=9anime.ru|9anime.to
+defpush.com^$domain=9anime.ru|9anime.to
+disqusads.com^$domain=9anime.ru|9anime.to|disqus.com|disquscdn.com
+eetseemp.net^$domain=9anime.ru|9anime.to
+mgid.com$domain=9anime.ru|9anime.to
+pushnice.com$domain=9anime.ru|9anime.to|rapidvideo.com
+pushame.com$domain=9anime.ru|9anime.to|rapidvideo.com
+pushwhy.com$domain=9anime.ru|9anime.to|rapidvideo.com
+revrtb.com$domain=9anime.ru|9anime.to
+steepto.com$domain=9anime.ru|9anime.to
+tharbadir.com$domain=9anime.ru|9anime.to
+9anime.ru/sw.js$important,domain=9anime.ru|9anime.to|behind-the-scene
+zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 9anime.*##.text-center
 9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
 
@@ -43,7 +44,7 @@ zeroclipboard.min.js$important,domain=9anime.ru
 !CLEANS RapidVideo
 $script,domain=rapidvideo.com
 $subdocument,domain=rapidvideo.com
-@@rapidvideo.com$domain=9anime.ru
+@@rapidvideo.com$domain=9anime.ru|9anime.to
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
 popads.net$domain=rapidvideo.com
@@ -52,7 +53,7 @@ yandex.ru$domain=rapidvideo.com
 
 !CLEANS MyCloud
 $script,domain=mcloud.to
-@@mcloud.to$domain=9anime.ru|mcloud.to
+@@mcloud.to$domain=9anime.ru|9anime.to|mcloud.to
 @@google-analytics.com$domain=mcloud.to
 @@googleapis.com$domain=mcloud.to
 @@gstatic.com$domain=mcloud.to
@@ -73,7 +74,7 @@ mp4upload.com###overlay
 $popup,domain=streamango.com
 $script,domain=streamango.com
 $subdocument,domain=streamango.com
-@@streamango.com$domain=9anime.ru|streamango.com
+@@streamango.com$domain=9anime.ru|9anime.to|streamango.com
 @@fruithosts.com$domain=streamango.com
 @@fruithosted.com$domain=streamango.com
 streamango.com###videooverlay
@@ -82,4 +83,4 @@ streamango.com##script:inject(window.open-defuser.js)
 !CLEANS OpenLoad
 $script,domain=openload.co
 $subdocument,domain=openload.co
-@@openload.co$domain=9anime.ru|openload.co
+@@openload.co$domain=9anime.ru|9anime.to|openload.co
