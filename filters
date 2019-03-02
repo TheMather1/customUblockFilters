@@ -44,6 +44,9 @@ zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 !UNBREAKS 9anime
 9anime.*##script:inject(abort-current-inline-script.js, atob, decodeURIComponent)$badfilter
 
+!CLEANS PrettyFast
+@@prettyfast.to$domain=9anime.ru|9anime.to
+
 !CLEANS RapidVideo
 $script,domain=rapidvideo.com
 $subdocument,domain=rapidvideo.com
