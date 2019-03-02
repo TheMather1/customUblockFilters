@@ -8,6 +8,7 @@ $websocket,domain=9anime.ru|9anime.to
 $xmlhttprequest,domain=9anime.ru|9anime.to
 @@9anime.ru$first-party
 @@9anime.to$first-party
+@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to
 @@akacdn.ru$domain=9anime.ru|9anime.to
 @@disqus.com$domain=9anime.ru|9anime.to
 @@disquscdn.com$domain=9anime.ru|9anime.to|disqus.com|discuscdn.com
