@@ -1,4 +1,3 @@
-
 d20pfsrd.com##div.product-listing, div.product-left, div.product-right, div.top-post, div.widget_srdgoogleads
 d20pfsrd.com#$#body, div.contentblock, div.widget, div.faq, main article.bestiary.page div.article-content div.bestiaryindex .divboxes > div > div:nth-of-type(1), table:not(.sites-layout-hbox) tr:nth-child(odd){ background-color: #353535 !important; }
 d20pfsrd.com#$#div.article-content, div.contentblock > table > tbody > tr > td > div, table:not(.sites-layout-hbox) tr:nth-child(even){ background-color: #404040 !important; }
