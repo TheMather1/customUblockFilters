@@ -63,6 +63,8 @@ adsco.re$domain=rapidvideo.com
 popads.net$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
 yandex.ru$domain=rapidvideo.com
+rapidvideo.com###top350p
+rapidvideo.com##body > div:has(div > a[href="/?c=buy_premium"])
 
 !CLEANS MyCloud
 $script,domain=mcloud.to
