@@ -1,0 +1,17 @@
+!Tsumino
+$script,third-party,domain=tsumino.com
+juicyads.com$domain=tsumino.com
+$subdocument,domain=tsumino.com
+atrk.js$script,important
+@@cloudfront.com$domain=tsumino.com
+@@cloudflare.com$domain=tsumino.com
+@@tsumino.com$image
+@@mc.yandex.ru
+@@referrer.disqus.com
+
+!Gamcore
+gamcore.com/js/ads.js$script
+gamcore.com##div[id^="ad_"][id$="_spiel"]
+gamcore.com##div[style^="position: fixed; top: 0px;"][style*="width: 100%"]
+gamcore.com###tvadbody
+gamcore.com###thgir
