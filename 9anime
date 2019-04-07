@@ -65,6 +65,7 @@ ugrastes.uk$domain=rapidvideo.com
 yandex.ru$domain=rapidvideo.com
 rapidvideo.com###top350p
 rapidvideo.com##body > div:has(div > a[href="/?c=buy_premium"])
+rapidvideo.com##body > style
 
 !CLEANS MyCloud
 $script,domain=mcloud.to
