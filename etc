@@ -1,3 +1,11 @@
+!Drammens Tidende
+amedia-amedia.bannerflow.com
+
+!CLEANS Tumblr
+tumblr.*##.post_container:has([class=post_info_recommended])
+tumblr.*###right_column > [class*=recommended_tumblelogs]
+tumblr.*###right_column > [class*=radar]
+
 !Tsumino
 $script,third-party,domain=tsumino.com
 juicyads.com$domain=tsumino.com
