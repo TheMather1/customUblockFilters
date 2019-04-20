@@ -30,6 +30,7 @@ defpush.com^$domain=9anime.ru|9anime.to
 disqusads.com^$domain=9anime.ru|9anime.to|disqus.com|disquscdn.com
 eetseemp.net^$domain=9anime.ru|9anime.to
 mgid.com$domain=9anime.ru|9anime.to
+popads.net$domain=9anime.ru|9anime.to
 pushnice.com$domain=9anime.ru|9anime.to|rapidvideo.com
 pushame.com$domain=9anime.ru|9anime.to|rapidvideo.com
 pushwhy.com$domain=9anime.ru|9anime.to|rapidvideo.com
@@ -49,6 +50,8 @@ zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 
 !CLEANS PrettyFast
 @@prettyfast.to$domain=9anime.ru|9anime.to|prettyfast.to
+@@googleapis.com$domain=prettyfast.to
+@@gstatic.com$domain=prettyfast.to
 $script,domain=prettyfast.to
 $subdocument,domain=prettyfast.to
 
@@ -64,7 +67,8 @@ popads.net$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
 yandex.ru$domain=rapidvideo.com
 rapidvideo.com###top350p
-rapidvideo.com##body > div:has(div > a[href="/?c=buy_premium"])
+rapidvideo.com##div:has(> a[href="/?c=buy_premium"])
+rapidvideo.com##div:has(div:only-child > a[href="/?c=buy_premium"])
 rapidvideo.com##body > style
 
 !CLEANS MyCloud
