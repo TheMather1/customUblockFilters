@@ -72,11 +72,13 @@ rapidvideo.com##body > style
 
 !CLEANS MyCloud
 $script,domain=mcloud.to
+@@mcloud.to$first-party
 @@mcloud.to$domain=9anime.ru|9anime.to|mcloud.to
 @@google-analytics.com$domain=mcloud.to
 @@googleapis.com$domain=mcloud.to
 @@gstatic.com$domain=mcloud.to
 @@jwpcdn.com$domain=mcloud.to
+zap.buzz^$domain=mcloud.to
 
 !CLEANS Mp4upload
 $popup,domain=mp4upload.com
