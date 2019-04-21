@@ -44,7 +44,6 @@ zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
 
 !UNBREAKS 9anime
-9anime.*##script:inject(abort-current-inline-script.js, atob, decodeURIComponent)$badfilter
 @@mc.yandex.ru$domain=9anime.ru|9anime.to
 @@referrer.disqus.com$domain=9anime.ru|9anime.to
 
