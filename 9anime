@@ -53,7 +53,7 @@ zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 @@gstatic.com$domain=prettyfast.to
 $script,domain=prettyfast.to
 $subdocument,domain=prettyfast.to
-prettyfast.to##script:inject(abort-current-inline-script.js, adcashMacros)
+prettyfast.to##script:inject(window.open-defuser.js)
 
 !CLEANS RapidVideo
 $script,domain=rapidvideo.com
