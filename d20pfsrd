@@ -1,11 +1,12 @@
 d20pfsrd.com##div.product-listing, div.product-left, div.product-right, div.top-post, div.widget_srdgoogleads
 d20pfsrd.com#$#body, div.contentblock, div.widget, div.faq, main article.bestiary.page div.article-content div.bestiaryindex .divboxes > div > div:nth-of-type(1), table:not(.sites-layout-hbox) tr:nth-child(odd){ background-color: #353535 !important; }
-d20pfsrd.com#$#div.article-content, div.contentblock > table > tbody > tr > td > div, table:not(.sites-layout-hbox) tr:nth-child(even){ background-color: #404040 !important; }
-d20pfsrd.com#$#main h1, h2, div.contentblock-title, div.article-content{ color: #CCCCCC !important; }
-d20pfsrd.com#$#main, div.textwidget table{ background-color: #555555 !important; }
+d20pfsrd.com#$#div.contentblock > table > tbody > tr > td > div, table:not(.sites-layout-hbox) tr:nth-child(even), .article-text{ background-color: #404040 !important; }
+d20pfsrd.com#$#main h1, main h2, main h3, main h4, div.contentblock-title, .article-text p, .article-text th, .article-text td, .article-text div{ color: #CCCCCC !important; }
+d20pfsrd.com#$#main, div.textwidget table, .content-sidebar > div:nth-child(2), .faq > div:nth-child(2), .article-text div.table-right > div { background-color: #555555 !important; }
 d20pfsrd.com#$#article, div.footer{ background-color: #272727 !important; }
 d20pfsrd.com#$#aside.sidebar-left div.widget, div.contentblock > table > tbody > tr > td > div > div:nth-of-type(1), body .sidebar-left div.sidebar-widget li.page_item, div.flexbox{ background-color: #454545 !important; }
-d20pfsrd.com#$#body article a:link, body article a:visited, body .sidebar-left div.sidebar-widget > div > ul > li.page_item ul.children a, body .sidebar-left div.sidebar-widget div.widget li a, #toc_container a, body section article a:link,body section article a:visited{ color: CornflowerBlue !important; }
+d20pfsrd.com#$#html > body > div.container-fluid .content.row-fluid .col-12 .row-fluid a:link, html > body > div.container-fluid .content.row-fluid .col-12 .row-fluid a:visited { color: CornflowerBlue !important; }
 d20pfsrd.com#$#div.contentblock{ border-color: #444444 !important; }
 d20pfsrd.com#$##toc_container, div.ogn-childpages{ background: #444444 !important; }
-d20pfsrd.com#$#div.textwidget table tr, article table:not(.sites-layout-hbox) thead, table:not(.sites-layout-hbox) th, main .article-content h4, div.flexbox div p.title, p.title, div.section15 > :first-child { background-color: #305080 !important; }
+d20pfsrd.com#$#div.textwidget table tr, table:not(.sites-layout-hbox) th, main .article-content h4, div.flexbox div p.title, p.title, div.section15 > :first-child, div.contentblock > table > tbody > tr > td.text > div > div:first-child { background-color: #305080 !important; }
+d20pfsrd.com#$#.content-sidebar > div:first-child, .faq > div:first-child{ color : #000000 !important; }
