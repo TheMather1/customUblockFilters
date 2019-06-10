@@ -4,7 +4,7 @@ d20pfsrd.com#$#table:not(.sites-layout-hbox) tr:nth-child(odd){ background-color
 d20pfsrd.com#$#div.contentblock > table > tbody > tr > td > div, table:not(.sites-layout-hbox) tr:nth-child(even) { background-color: #404040 !important; }
 d20pfsrd.com#$#main h1, main h2, main h3, main h4, div.contentblock-title, .article-text p, .article-text th, .article-text td, .article-text div, table caption { color: #CCCCCC !important; }
 d20pfsrd.com#$#div.textwidget table, .content-sidebar > div:nth-child(2), .faq > div:nth-child(2), .article-text div.table-right > div #div[class="flexbox"]{ background-color: #555555 !important; }
-d20pfsrd.com#$#.flexbox > contentblock { border-color: #555555 !important; }
+d20pfsrd.com#$#.flexbox > .contentblock { border-color: #555555 !important; }
 d20pfsrd.com#$#html > body > div.container-fluid .content.row-fluid .col-12 .row-fluid a:link, html > body > div.container-fluid .content.row-fluid .col-12 .row-fluid a:visited { color: CornflowerBlue !important; }
 d20pfsrd.com#$##toc_container, div.ogn-childpages{ background: #444444 !important; }
 d20pfsrd.com#$#div.textwidget table tr, table:not(.sites-layout-hbox) th, main .article-content h4, div.flexbox div p.title, p.title, div.section15 > :first-child, div.contentblock > table > tbody > tr > td.text > div > div:first-child, .bestiaryindex > .divboxes > div > div:first-child { background-color: #305080 !important; }
