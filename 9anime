@@ -1,5 +1,6 @@
-!Homepage: https://github.com/TheMather1/customUblockFilters
-!Title: Mather's filters 9anime
+! Homepage: https://github.com/TheMather1/customUblockFilters
+! Title: Mather's filters 9anime
+! Expires: 1 days
 
 !Cleans 9anime
 $image,domain=9anime.ru|9anime.to
