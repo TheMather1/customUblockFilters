@@ -1,3 +1,6 @@
+!Homepage: https://github.com/TheMather1/customUblockFilters
+!Title: Mather's filters 9anime
+
 !Cleans 9anime
 $image,domain=9anime.ru|9anime.to
 $other,domain=9anime.ru|9anime.to
