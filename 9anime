@@ -49,9 +49,9 @@ zeroclipboard.min.js$important,domain=9anime.ru|9anime.to
 9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
 
 !Show only subbed new releases
-9anime.*##.widget.hotnew.has-page [data-name]:not([data-name="sub"])
-9anime.*#$#.content[data-name="sub"]{ display: block !important; }
-9anime.*#$#.tab[data-name="sub"]{ color: #888 !important; border-bottom: 2px solid #5e4390 !important; }
+9anime.*/home##.widget.hotnew.has-page [data-name]:not([data-name="sub"])
+9anime.*/home#$#.content[data-name="sub"]{ display: block !important; }
+9anime.*/home#$#.tab[data-name="sub"]{ color: #888 !important; border-bottom: 2px solid #5e4390 !important; }
 
 !UNBREAKS 9anime
 @@mc.yandex.ru$domain=9anime.ru|9anime.to
