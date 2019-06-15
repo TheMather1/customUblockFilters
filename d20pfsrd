@@ -1,3 +1,7 @@
+! Homepage: https://github.com/TheMather1/customUblockFilters
+! Title: Mather's filters d20pfsrd
+! Expires: 1 days
+
 d20pfsrd.com##div.product-listing, div.product-left, div.product-right, div.top-post, div.widget_srdgoogleads
 d20pfsrd.com#$#div.row-fluid, body, main, article, div.widget, div.footer, .flexbox > .contentblock { background-color: #272727 !important; }
 d20pfsrd.com#$#table:not(.sites-layout-hbox) tr:nth-child(odd){ background-color: #353535 !important; }
