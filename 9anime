@@ -73,6 +73,7 @@ $script,domain=prettyfast.to
 $subdocument,domain=prettyfast.to
 adcash.com$domain=prettyfast.to
 prettyfast.to##script:inject(abort-current-inline-script.js, appendChild)
+prettyfast.to##script:inject(addEventListener-defuser.js, mousedown)
 
 !CLEANS RapidVideo
 $script,domain=rapidvideo.com
