@@ -11,21 +11,22 @@ tumblr.*###right_column > [class*=recommended_tumblelogs]
 tumblr.*###right_column > [class*=radar]
 
 !Tsumino
-$script,third-party,domain=tsumino.com
-juicyads.com$domain=tsumino.com
-$subdocument,domain=tsumino.com
-atrk.js$script,important
+@@tsumino.com$image
 @@cloudfront.com$domain=tsumino.com
 @@cloudflare.com$domain=tsumino.com
-@@tsumino.com$image
-@@mc.yandex.ru
 @@referrer.disqus.com
+@@mc.yandex.ru
+$script,third-party,domain=tsumino.com
+$subdocument,domain=tsumino.com
+atrk.js$script,important
+juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
+tsumino.com##body > div.text-center
 
 !Gamcore
 gamcore.com/js/ads.js$script
+69games.xxx^$domain=gamcore.com
 gamcore.com##div[id^="ad_"][id$="_spiel"]
 gamcore.com##div[style^="position: fixed; top: 0px;"][style*="width: 100%"]
 gamcore.com###tvadbody
 gamcore.com###thgir
-69games.xxx^$domain=gamcore.com
