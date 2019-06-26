@@ -53,14 +53,13 @@ zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
 !Show only subbed new releases
 9anime.*##.widget.hotnew.has-page [data-name]:not([data-name="sub"])
-9anime.*#$#.content[data-name="sub"]{ display: block !important; }
 9anime.*#$#.tab[data-name="sub"]{ color: #888 !important; border-bottom: 2px solid #5e4390 !important; }
 
 !UNBREAKS 9anime
 @@mc.yandex.ru,referrer.disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
 !CLEANS PrettyFast
-$iframe,script,subdocument,domain=prettyfast.to
+$script,subdocument,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
 @@googleapis.com$domain=prettyfast.to
 @@gstatic.com$domain=prettyfast.to
@@ -82,9 +81,11 @@ $script,subdocument,domain=rapidvideo.com
 adblock-proxy.rtty.in$domain=rapidvideo.com
 adsco.re$domain=rapidvideo.com
 popads.net$domain=rapidvideo.com
+pushagim.com$domain=rapidvideo.com
 ugrastes.uk$domain=rapidvideo.com
 yandex.ru$domain=rapidvideo.com
 rapidvideo.com##body > style
+rapidvideo.com##div[id$="ad"]:has(a)
 rapidvideo.com##div:has(> a[href="/?c=buy_premium"])
 rapidvideo.com##div:has(div:only-child > a[href="/?c=buy_premium"])
 rapidvideo.com###top350p
