@@ -47,7 +47,7 @@ taboola.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 tharbadir.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 runative-syndicate.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!9anime.ru/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|behind-the-scene
+9anime.ru/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|behind-the-scene
 9anime.*##.text-center
 9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
 
