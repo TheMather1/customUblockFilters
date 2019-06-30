@@ -117,6 +117,7 @@ streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-$script,subdocument,domain=openload.co
-$subdocument,domain=openload.co
-@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co
+$script,subdocument,domain=openload.co|openload.pw
+$subdocument,domain=openload.co|openload.pw
+@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw
+@@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw
