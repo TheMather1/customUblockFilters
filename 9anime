@@ -46,6 +46,7 @@ steepto.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 taboola.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 tharbadir.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 runative-syndicate.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+spotscenered.info$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 9anime.ru/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|behind-the-scene
 9anime.*##.text-center
@@ -118,6 +119,8 @@ streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
 $script,subdocument,domain=openload.co|openload.pw
-$subdocument,domain=openload.co|openload.pw
-@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw
-@@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw
+@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
+@@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
+@@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
+openload.co##script:inject(window.open-defuser.js)
+openload.pw##script:inject(window.open-defuser.js)
