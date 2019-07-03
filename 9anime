@@ -10,6 +10,7 @@ $image,other,script,stylesheet,subdocument,websocket,xmlhttprequest,domain=9anim
 @@9anime.live$first-party
 @@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@disquscdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|disqus.com|discuscdn.com
 @@doubleclick.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
