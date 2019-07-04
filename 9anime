@@ -3,7 +3,7 @@
 ! Expires: 1 days
 
 !Cleans 9anime
-$image,other,script,stylesheet,subdocument,websocket,xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+$all,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@9anime.ru$first-party
 @@9anime.to$first-party
 @@9anime.nl$first-party
@@ -24,6 +24,7 @@ $image,other,script,stylesheet,subdocument,websocket,xmlhttprequest,domain=9anim
 @@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|twitter.com
 addthis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 addthisedge.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+adexnexus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 bebi.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 bit.ly$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 bodelen.com^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
@@ -37,11 +38,12 @@ google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live,im
 mgid.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 opsaupsa.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 popads.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+popmonetizer.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 propellerclick.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 pushnice.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
 pushame.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
 pushwhy.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
-revrtb.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+revrtb.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|mcloud.to
 dolohen.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 steepto.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 taboola.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
@@ -62,7 +64,7 @@ zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@mc.yandex.ru,referrer.disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
 !CLEANS PrettyFast
-$script,subdocument,domain=prettyfast.to
+$all,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
 @@googleapis.com$domain=prettyfast.to
 @@gstatic.com$domain=prettyfast.to
@@ -77,7 +79,7 @@ prettyfast.to##script:inject(nowebrtc.js)
 prettyfast.to##body > :not([id="player"])
 
 !CLEANS RapidVideo
-$script,subdocument,domain=rapidvideo.com
+$all,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
@@ -94,14 +96,14 @@ rapidvideo.com##div:has(div:only-child > a[href="/?c=buy_premium"])
 rapidvideo.com###top350p
 
 !CLEANS MyCloud
-$script,domain=mcloud.to
-@@mcloud.to$first-party
+$all,domain=mcloud.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|mcloud.to
 @@google-analytics.com,googleapis.com,gstatic.com,jwpcdn.com$domain=mcloud.to
-zap.buzz^$domain=mcloud.to
+zap.buzz$domain=mcloud.to
+
 
 !CLEANS Mp4upload
-$popup,script,subdocument,domain=mp4upload.com
+$all,domain=mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@jwpcdn.com$domain=mp4upload.com
@@ -111,7 +113,7 @@ cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
-$popup,script,subdocument,domain=streamango.com
+$all,domain=streamango.com
 @@streamango.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|streamango.com
 @@fruithosts.com$domain=streamango.com
 @@fruithosted.com$domain=streamango.com
@@ -119,7 +121,7 @@ streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-$script,subdocument,domain=openload.co|openload.pw
+$all,domain=openload.co|openload.pw
 @@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
 @@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
 @@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
