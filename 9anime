@@ -85,6 +85,7 @@ $all,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
+rapidvideo.com/genads.php$script,first-party,important
 adblock-proxy.rtty.in$domain=rapidvideo.com
 adsco.re$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
 popads.net$domain=rapidvideo.com
