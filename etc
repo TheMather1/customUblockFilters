@@ -1,4 +1,4 @@
-! Homepage: https://github.com/TheMather1/customUblockFilters
+aa! Homepage: https://github.com/TheMather1/customUblockFilters
 ! Title: Mather's filters other
 ! Expires: 1 days
 
@@ -26,6 +26,8 @@ tsumino.com##body > div.text-center
 !Gamcore
 gamcore.com/js/ads.js$script
 69games.xxx^$domain=gamcore.com
+onesignal.com$domain=gamcore.com
+zeusclicks.com$domain=gamcore.com
 gamcore.com##div[id^="ad_"][id$="_spiel"]
 gamcore.com##div[style^="position: fixed; top: 0px;"][style*="width: 100%"]
 gamcore.com###tvadbody
