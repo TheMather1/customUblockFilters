@@ -7,15 +7,15 @@ $third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@$first-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-@@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw
 @@disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@disquscdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|disqus.com|discuscdn.com
 @@doubleclick.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@facebook.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@google.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|mcloud.to
+@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|mcloud.to
 @@amung.us$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|twitter.com
@@ -81,8 +81,9 @@ prettyfast.to##body > :not([id="player"])
 !CLEANS RapidVideo
 $third-party,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-@@rapidvideo.com$script,domain=rapidvideo.com
-@@playercdn.net$domain=rapidvideo.com
+@@rapidvideo.com$script,first-party
+@@playercdn.net$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
+@@cagelrib.net$domain=rapidvideo.com
 rapidvideo.com/genads.php$script,first-party,important
 adblock-proxy.rtty.in$domain=rapidvideo.com
 adsco.re$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
