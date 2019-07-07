@@ -24,36 +24,7 @@ $third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@facebook.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|twitter.com
-!addthis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!addthisedge.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!adexnexus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!bebi.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!bit.ly$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!bodelen.com^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!defpush.com^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!deloplen.com^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com|prettyfast.to
-!disqusads.com^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|disqus.com|disquscdn.com
-!eetseemp.net^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!exosrv.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
-!foolato.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!latestsocial.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!mgid.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!myfastcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!opsaupsa.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!popads.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!popmonetizer.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!propellerclick.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!pushnice.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
-!pushame.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
-!pushwhy.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|rapidvideo.com
-!revrtb.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|mcloud.to
-!runative-syndicate.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!dolohen.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!steepto.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!taboola.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!tharbadir.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!spotscenered.info$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-!zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+disqusads.com$domain=disqus.com|disquscdn.com
 google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live,important
 9anime.ru/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|behind-the-scene
 9anime.*##.text-center
@@ -70,12 +41,6 @@ google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live,im
 !CLEANS PrettyFast
 $third-party,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
-@@googleapis.com$domain=prettyfast.to
-@@gstatic.com$domain=prettyfast.to
-!adcash.com$domain=prettyfast.to
-!hosoojat.net$domain=prettyfast.to
-!pheergar.com$domain=prettyfast.to
-!stazumik.net$domain=prettyfast.to
 prettyfast.to##script:inject(abort-current-inline-script.js, appendChild)
 prettyfast.to##script:inject(abort-current-inline-script.js, Math, zfgloaded)
 prettyfast.to##script:inject(addEventListener-defuser.js, mousedown)
@@ -88,13 +53,6 @@ $third-party,domain=rapidvideo.com
 @@rapidvideo.com$script,first-party
 @@playercdn.net$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
 @@cagelrib.net$domain=rapidvideo.com
-!adblock-proxy.rtty.in$domain=rapidvideo.com
-!adsco.re$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
-!popads.net$domain=rapidvideo.com
-!pushagim.com$domain=rapidvideo.com
-!ugrastes.uk$domain=rapidvideo.com
-!wpnjs.com$domain=rapidvideo.com
-!yandex.ru$domain=rapidvideo.com
 rapidvideo.com/genads.php$script,first-party,important
 rapidvideo.com##body > style
 rapidvideo.com##div[id$="ad"]:has(a)
@@ -105,14 +63,11 @@ rapidvideo.com###top350p
 !CLEANS MyCloud
 $third-party,domain=mcloud.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|mcloud.to
-!zap.buzz$domain=mcloud.to
-
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
-!cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
