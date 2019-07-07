@@ -3,11 +3,8 @@
 ! Expires: 1 days
 
 !Cleans 9anime
-$all,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
-@@9anime.ru$first-party
-@@9anime.to$first-party
-@@9anime.nl$first-party
-@@9anime.live$first-party
+$third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@$first-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
@@ -66,7 +63,7 @@ zap.buzz$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@mc.yandex.ru,referrer.disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
 !CLEANS PrettyFast
-$all,domain=prettyfast.to
+$third-party,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
 @@googleapis.com$domain=prettyfast.to
 @@gstatic.com$domain=prettyfast.to
@@ -81,7 +78,7 @@ prettyfast.to##script:inject(nowebrtc.js)
 prettyfast.to##body > :not([id="player"])
 
 !CLEANS RapidVideo
-$all,domain=rapidvideo.com
+$third-party,domain=rapidvideo.com
 @@rapidvideo.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@rapidvideo.com$script,domain=rapidvideo.com
 @@playercdn.net$domain=rapidvideo.com
@@ -100,14 +97,14 @@ rapidvideo.com##div:has(div:only-child > a[href="/?c=buy_premium"])
 rapidvideo.com###top350p
 
 !CLEANS MyCloud
-$all,domain=mcloud.to
+$third-party,domain=mcloud.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|mcloud.to
 @@google-analytics.com,googleapis.com,gstatic.com,jwpcdn.com$domain=mcloud.to
 zap.buzz$domain=mcloud.to
 
 
 !CLEANS Mp4upload
-$all,domain=mp4upload.com
+$third-party,domain=mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@mp4upload.com$domain=9anime.ru|mp4upload.com
 @@jwpcdn.com$domain=mp4upload.com
@@ -117,7 +114,7 @@ cpw.html$important,domain=mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
-$all,domain=streamango.com
+$third-party,domain=streamango.com
 @@streamango.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|streamango.com
 @@fruithosts.com$domain=streamango.com
 @@fruithosted.com$domain=streamango.com
@@ -125,7 +122,7 @@ streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-$all,domain=openload.co|openload.pw
+$third-party,domain=openload.co|openload.pw
 @@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
 @@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
 @@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
