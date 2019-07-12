@@ -48,17 +48,20 @@ prettyfast.to##script:inject(nowebrtc.js)
 prettyfast.to##body > :not([id="player"])
 
 !CLEANS RapidVideo
-$third-party,domain=rapidvideo.com
+$third-party,domain=rapidvideo.com|rapidvid.to
 @@rapidvideo.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@rapidvid.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 @@rapidvideo.com$script,first-party
-@@playercdn.net$domain=rapidvideo.com|9anime.ru|9anime.to|9anime.nl|9anime.live
-@@cagelrib.net$domain=rapidvideo.com
+@@rapidvid.to$script,first-party
+@@playercdn.net$domain=rapidvideo.com|rapidvid.to|9anime.ru|9anime.to|9anime.nl|9anime.live
+@@cagelrib.net$domain=rapidvideo.com|rapidvid.to
 rapidvideo.com/genads.php$script,first-party,important
-rapidvideo.com##body > style
-rapidvideo.com##div[id$="ad"]:has(a)
-rapidvideo.com##div:has(> a[href="/?c=buy_premium"])
-rapidvideo.com##div:has(div:only-child > a[href="/?c=buy_premium"])
-rapidvideo.com###top350p
+rapidvid.to/genads.php$script,first-party,important
+rapidvid^##body > style
+rapidvid^##div[id$="ad"]:has(a)
+rapidvid^##div:has(> a[href="/?c=buy_premium"])
+rapidvid^##div:has(div:only-child > a[href="/?c=buy_premium"])
+rapidvid^###top350p
 
 !CLEANS MyCloud
 $third-party,domain=mcloud.to
