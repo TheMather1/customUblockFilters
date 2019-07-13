@@ -36,7 +36,13 @@ google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live,im
 9anime.*#$#.tab[data-name="sub"]{ color: #888 !important; border-bottom: 2px solid #5e4390 !important; }
 
 !UNBREAKS 9anime
-@@mc.yandex.ru,referrer.disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+gstatic.com$script,important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+
+!FUCK EasyList
+propellerclick.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+steepto.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+mgid.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+recreativ.ru$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
 !CLEANS PrettyFast
 $third-party,domain=prettyfast.to
