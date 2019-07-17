@@ -53,7 +53,7 @@ prettyfast.to##body > :not([id="player"])
 !CLEANS RapidVideo
 $third-party,domain=rapidvideo.com|rapidvid.to
 @@rapidvideo.com$domain=rapidvideo.com|rapidvid.to|9anime.ru|9anime.to|9anime.nl|9anime.live
-@@rapidvid.to$first-party|domain=rapidvideo.com|rapidvid.to|9anime.ru|9anime.to|9anime.nl|9anime.live
+@@rapidvid.to$domain=rapidvideo.com|rapidvid.to|9anime.ru|9anime.to|9anime.nl|9anime.live
 @@playercdn.net$domain=rapidvideo.com|rapidvid.to|9anime.ru|9anime.to|9anime.nl|9anime.live
 @@cagelrib.net$domain=rapidvideo.com|rapidvid.to
 rapidvideo.com/genads.php$script,first-party,important
