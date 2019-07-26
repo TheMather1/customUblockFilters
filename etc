@@ -22,6 +22,7 @@ atrk.js$script,important
 juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
 tsumino.com##body > div.text-center
+tsumino.com##ul.tsumino-nav-left > li:not(:has(a[href^="/"]))
 
 !Gamcore
 gamcore.com/js/ads.js$script
