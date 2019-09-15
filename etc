@@ -18,9 +18,11 @@ tumblr.*###right_column > [class*=radar]
 @@mc.yandex.ru
 $script,third-party,domain=tsumino.com
 $subdocument,domain=tsumino.com
+a.adtng.com^$domain=tsumino.com
 atrk.js$script,important
 juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
+theporndude.com^$domain=tsumino.com
 tsumino.com##body > div.text-center
 tsumino.com##ul.tsumino-nav-left > li:not(:has(a[href^="/"]))
 
@@ -37,3 +39,6 @@ gamcore.com###thgir
 !Anime-Planet
 anime-planet.com##*:has(>.ad:only-child)
 anime-planet.com##.ad
+
+!MyAnimeList
+myanimelist.net##.mal-side-ad
