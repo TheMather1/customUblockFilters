@@ -26,7 +26,6 @@ pop.js$domain=www.tsumino.com
 theporndude.com^$domain=tsumino.com
 tsumino.com##body > div.text-center
 tsumino.com##.ads-area
-!tsumino.com##ul.tsumino-nav-left > li:not(:has(a[href^="/"]))
 
 !Gamcore
 gamcore.com/js/ads.js$script
