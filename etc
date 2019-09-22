@@ -22,9 +22,11 @@ a.adtng.com^$domain=tsumino.com
 atrk.js$script,important
 juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
+pop.js$domain=www.tsumino.com
 theporndude.com^$domain=tsumino.com
 tsumino.com##body > div.text-center
-tsumino.com##ul.tsumino-nav-left > li:not(:has(a[href^="/"]))
+tsumino.com##.ads-area
+!tsumino.com##ul.tsumino-nav-left > li:not(:has(a[href^="/"]))
 
 !Gamcore
 gamcore.com/js/ads.js$script
