@@ -70,8 +70,8 @@ $third-party,domain=mcloud.to
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
-@@mp4upload.com$domain=9anime.ru|mp4upload.com
-@@mp4upload.com$domain=9anime.ru|mp4upload.com
+@@mp4upload.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live||mp4upload.com
+@@mp4upload.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live||mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamango
