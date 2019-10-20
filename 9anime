@@ -83,9 +83,11 @@ streamango.com###videooverlay
 streamango.com##script:inject(window.open-defuser.js)
 
 !CLEANS OpenLoad
-$third-party,domain=openload.co|openload.pw
-@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
-@@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
-@@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net
+$third-party,domain=openload.co|openload.pw|oload.monster
+@@openload.co$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net|oload.monster
+@@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net|oload.monster
+@@oload.monster$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net|oload.monster
+@@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|openload.co|openload.pw|oloadcdn.net|oload.monster
 openload.co##script:inject(window.open-defuser.js)
 openload.pw##script:inject(window.open-defuser.js)
+oload.monster##script:inject(window.open-defuser.js)
