@@ -41,6 +41,9 @@ steepto.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 mgid.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 recreativ.ru$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live
 
+!CLEANS VeryStream
+@@verystream.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
+
 !CLEANS PrettyFast
 $third-party,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|prettyfast.to
