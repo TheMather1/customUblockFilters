@@ -15,11 +15,11 @@ $third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@jwpcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
 @@jwpltx.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
 @@google.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@googletagmanager.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to
-@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
+@@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
+@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
+@@googletagmanager.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
+@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|hydrax.net
+@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
 @@amung.us$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@doubleclick.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
@@ -95,3 +95,12 @@ $third-party,domain=openload.co|openload.pw|oload.monster
 openload.co##script:inject(window.open-defuser.js)
 openload.pw##script:inject(window.open-defuser.js)
 oload.monster##script:inject(window.open-defuser.js)
+
+!CLEANS Hydrax
+$third-party,domain=hydrax.net
+@@hydrax.net$subdocument,domain=9anime.to
+@@iamcdn.net^$domain=hydrax.net
+@@idocdn.com^$domain=hydrax.net
+@@jsdelivr.net^$domain=hydrax.net
+@@smamuhh1metro.com$domain=hydrax.net
+@@tori-dennis.xyz$domain=hydrax.net
