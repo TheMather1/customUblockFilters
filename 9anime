@@ -29,7 +29,7 @@ disqusads.com$domain=disqus.com|disquscdn.com
 google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one,important
 9anime.*/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|behind-the-scene
 9anime.*##.text-center
-9anime.*##script:inject(abort-current-inline-script.js, decodeURIComponent)
+9anime.*##+js(abort-current-inline-script.js, decodeURIComponent)
 
 !Show only subbed new releases
 9anime.*##.widget.hotnew.has-page [data-name]:not([data-name="sub"])
@@ -48,10 +48,10 @@ recreativ.ru$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.o
 !CLEANS PrettyFast
 $third-party,domain=prettyfast.to
 @@prettyfast.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to
-prettyfast.to##script:inject(abort-current-inline-script.js, appendChild)
-prettyfast.to##script:inject(abort-current-inline-script.js, Math, zfgloaded)
-prettyfast.to##script:inject(addEventListener-defuser.js, mousedown)
-prettyfast.to##script:inject(nowebrtc.js)
+prettyfast.to##+js(abort-current-inline-script.js, appendChild)
+prettyfast.to##+js(abort-current-inline-script.js, Math, zfgloaded)
+prettyfast.to##+js(addEventListener-defuser.js, mousedown)
+prettyfast.to##+js(nowebrtc.js)
 prettyfast.to##body > :not([id="player"])
 
 !CLEANS RapidVideo
@@ -71,6 +71,7 @@ rapidvid^###top350p
 !CLEANS MyCloud
 $third-party,domain=mcloud.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to
+mcloud.to##+js(window.open-defuser.js)
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
@@ -84,7 +85,7 @@ $third-party,domain=streamango.com
 @@fruithosts.com$domain=streamango.com
 @@fruithosted.com$domain=streamango.com
 streamango.com###videooverlay
-streamango.com##script:inject(window.open-defuser.js)
+streamango.com##+js(window.open-defuser.js)
 
 !CLEANS OpenLoad
 $third-party,domain=openload.co|openload.pw|oload.monster
@@ -92,9 +93,9 @@ $third-party,domain=openload.co|openload.pw|oload.monster
 @@openload.pw$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|openload.co|openload.pw|oloadcdn.net|oload.monster
 @@oload.monster$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|openload.co|openload.pw|oloadcdn.net|oload.monster
 @@oloadcdn.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|openload.co|openload.pw|oloadcdn.net|oload.monster
-openload.co##script:inject(window.open-defuser.js)
-openload.pw##script:inject(window.open-defuser.js)
-oload.monster##script:inject(window.open-defuser.js)
+openload.co##+js(window.open-defuser.js)
+openload.pw##+js(window.open-defuser.js)
+oload.monster##+js(window.open-defuser.js)
 
 !CLEANS Hydrax
 $third-party,domain=hydrax.net
