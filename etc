@@ -43,3 +43,7 @@ anime-planet.com##.ad
 
 !MyAnimeList
 myanimelist.net##.mal-side-ad
+
+!Enjin
+enjin.com##.special_container:has(.m_ad)
+enjin.com##.special_container:has(.m_ad) + .container_spacer
