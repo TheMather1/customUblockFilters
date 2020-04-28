@@ -8,18 +8,18 @@ $third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@9anime.*$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@disquscdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|disqus.com|discuscdn.com
-@@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@bootstrapcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
+@@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
+@@bootstrapcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
 @@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|oload.monster|mp4upload.com
-@@jquery.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@jwpcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@jwpltx.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@google.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com
-@@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
-@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
-@@googletagmanager.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
-@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|hydrax.net
-@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mp4upload.com|hydrax.net
+@@jquery.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpltx.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
+@@google.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com
+@@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com|hydrax.net
+@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com|hydrax.net
+@@googletagmanager.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com|hydrax.net
+@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|hydrax.net
+@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|prettyfast.to|openload.co|openload.pw|mcloud.to|mcloud2.to|mp4upload.com|hydrax.net
 @@amung.us$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@doubleclick.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
@@ -69,9 +69,11 @@ rapidvid^##div:has(div:only-child > a[href="/?c=buy_premium"])
 rapidvid^###top350p
 
 !CLEANS MyCloud
-$third-party,domain=mcloud.to
-@@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to
+$third-party,domain=mcloud.to|mcloud2.to
+@@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
+@@mcloud2.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
 mcloud.to##+js(window.open-defuser.js)
+mcloud2.to##+js(window.open-defuser.js)
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
