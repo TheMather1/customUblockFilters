@@ -107,3 +107,6 @@ $third-party,domain=hydrax.net
 @@jsdelivr.net^$domain=hydrax.net
 @@smamuhh1metro.com$domain=hydrax.net
 @@*-*.xyz$domain=hydrax.net
+
+!ENABLES Streamtape
+@@streamtape.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
