@@ -28,7 +28,6 @@ $third-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 disqusads.com$domain=disqus.com|disquscdn.com
 google.com/favicon.ico$popup,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one,important
 9anime.*/sw.js$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|behind-the-scene
-9anime.*##.text-center
 9anime.*##+js(abort-current-inline-script.js, decodeURIComponent)
 9anime.*##+js(abort-current-inline-script.js, window.onclick)
 
