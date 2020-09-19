@@ -108,6 +108,10 @@ $third-party,domain=hydrax.net
 @@smamuhh1metro.com$domain=hydrax.net
 @@*-*.xyz$domain=hydrax.net
 
-!ENABLES Streamtape
+!CLEANS Streamtape
+$third-party,domain=streamtape.com|streamtape.net
 @@streamtape.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@streamtape.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
+@@tapecontent.net$domain=streamtape.com|streamtape.net
+streamtape.*/ad.js$important
+streamtape.*##+js(window.open-defuser.js)
