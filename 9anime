@@ -25,12 +25,6 @@
 @@facebook.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|twitter.com
 
-!FUCK EasyList
-propellerclick.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-steepto.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-mgid.com$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-recreativ.ru$important,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-
 !CLEANS MyCloud
 $third-party,domain=mcloud.to|mcloud2.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
