@@ -24,6 +24,7 @@
 @@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@facebook.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
 @@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|twitter.com
+9anime.*##section.sda
 
 !CLEANS MyCloud
 $third-party,domain=mcloud.to|mcloud2.to
