@@ -1,6 +1,7 @@
 ! Homepage: https://github.com/TheMather1/customUblockFilters
 ! Title: Mather's filters 9anime
 ! Expires: 1 days
+!#include generic
 
 !CLEANS 9Anime
 @@$first-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
