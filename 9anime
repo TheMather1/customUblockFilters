@@ -32,6 +32,7 @@
 $third-party,domain=mcloud.to|mcloud2.to
 @@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
 @@mcloud2.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
+@@openstream.to^$domain=mcloud.to|mcloud2.to
 mcloud.to##+js(window.open-defuser.js)
 mcloud2.to##+js(window.open-defuser.js)
 
