@@ -10,6 +10,9 @@ tumblr.*##.post_container:has([class=post_info_recommended])
 tumblr.*###right_column > [class*=recommended_tumblelogs]
 tumblr.*###right_column > [class*=radar]
 
+!Pururin
+pururin.*##+js(aopw, _Pururin)
+
 !Tsumino
 @@tsumino.com$image
 @@cloudfront.com$domain=tsumino.com
