@@ -23,6 +23,7 @@ $script,third-party,domain=tsumino.com
 $subdocument,domain=tsumino.com
 a.adtng.com^$domain=tsumino.com
 atrk.js$script,important
+erogames.com$domain=tsumino.com
 juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
 pop.js$domain=tsumino.com|pururin.io
