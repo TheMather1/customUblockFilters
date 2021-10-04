@@ -27,8 +27,11 @@ juicyads.com$domain=tsumino.com
 nutaku.js$script,domain=tsumino.com
 pop.js$domain=tsumino.com|pururin.io
 theporndude.com^$domain=tsumino.com
+tsumino.com/erogames/*$important
+tsumino.com/erogames_pu.js$script,important
 tsumino.com##body > div.text-center
 tsumino.com##.ads-area
+tsumino.com##.erogames_container
 
 !Gamcore
 gamcore.com/js/ads.js$script
