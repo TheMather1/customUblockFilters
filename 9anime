@@ -4,47 +4,47 @@
 !#include generic
 
 !CLEANS 9Anime
-@@$first-party,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@9anime.*$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@disqus.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@disquscdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|disqus.com|discuscdn.com
-@@akacdn.ru$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@bootstrapcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@cloudflare.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mp4upload.com
-@@jquery.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@jwpcdn.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@jwpltx.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@google.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@gstatic.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@googleapis.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@googletagmanager.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@googleusercontent.com$xmlhttprequest,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
-@@google-analytics.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to|mp4upload.com
-@@amung.us$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@doubleclick.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@facebook.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@facebook.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@twitter.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|twitter.com
+@@$first-party,domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@9anime.*$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@disqus.com$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@disquscdn.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|disqus.com|discuscdn.com
+@@akacdn.ru$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@bootstrapcdn.com$domain9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@cloudflare.com$domain9anime.to|9anime.id|9anime.club|9anime.center|mp4upload.com
+@@jquery.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpcdn.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpltx.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@google.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@gstatic.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googleapis.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googletagmanager.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googleusercontent.com$xmlhttprequest,domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to
+@@google-analytics.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to|mp4upload.com
+@@amung.us$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@doubleclick.net$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@facebook.com$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@facebook.net$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@twitter.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|twitter.com
 9anime.*##section.sda
 9anime.*##+js(window.open-defuser.js)
 
 !CLEANS MyCloud
 $third-party,domain=mcloud.to|mcloud2.to
-@@mcloud.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
-@@mcloud2.to$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mcloud.to|mcloud2.to
+@@mcloud.to$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to
+@@mcloud2.to$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to
 @@openstream.to^$domain=mcloud.to|mcloud2.to
 mcloud.to##+js(window.open-defuser.js)
 mcloud2.to##+js(window.open-defuser.js)
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
-@@mp4upload.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one|mp4upload.com
+@@mp4upload.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|mp4upload.com
 mp4upload.com###overlay
 
 !CLEANS Streamtape
 $third-party,domain=streamtape.com|streamtape.net
-@@streamtape.com$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
-@@streamtape.net$domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
+@@streamtape.com$domain=9anime.to|9anime.id|9anime.club|9anime.center
+@@streamtape.net$domain=9anime.to|9anime.id|9anime.club|9anime.center
 @@tapecontent.net$domain=streamtape.com|streamtape.net
 streamtape.*/ad.js$important
 streamtape.com##+js(window.open-defuser.js)
