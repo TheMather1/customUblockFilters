@@ -26,15 +26,15 @@
 @@facebook.net$domain=9anime.to|9anime.id|9anime.club|9anime.center
 @@twitter.com$domain=9anime.to|9anime.id|9anime.club|9anime.center|twitter.com
 9anime.*##section.sda
-9anime.*##+js(window.open-defuser.js)
+9anime.*##+js(nowoif)
 
 !CLEANS MyCloud
 $third-party,domain=mcloud.to|mcloud2.to
 @@mcloud.to$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to
 @@mcloud2.to$domain=9anime.to|9anime.id|9anime.club|9anime.center|mcloud.to|mcloud2.to
 @@openstream.to^$domain=mcloud.to|mcloud2.to
-mcloud.to##+js(window.open-defuser.js)
-mcloud2.to##+js(window.open-defuser.js)
+mcloud.to##+js(nowoif)
+mcloud2.to##+js(nowoif)
 
 !CLEANS Mp4upload
 $third-party,domain=mp4upload.com
@@ -47,5 +47,5 @@ $third-party,domain=streamtape.com|streamtape.net
 @@streamtape.net$domain=9anime.to|9anime.id|9anime.club|9anime.center
 @@tapecontent.net$domain=streamtape.com|streamtape.net
 streamtape.*/ad.js$important
-streamtape.com##+js(window.open-defuser.js)
-streamtape.net##+js(window.open-defuser.js)
+streamtape.com##+js(nowoif)
+streamtape.net##+js(nowoif)
