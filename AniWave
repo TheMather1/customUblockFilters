@@ -1,0 +1,29 @@
+! Homepage: https://github.com/TheMather1/customUblockFilters
+! Title: Mather's filters AniWave
+! Expires: 1 days
+!#include generic
+
+!CLEANS AniWave
+@@$first-party,domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@aniwave.*$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@disqus.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@disquscdn.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|disqus.com|discuscdn.com
+@@akacdn.ru$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@bootstrapcdn.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@cloudflare.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mp4upload.com
+@@jquery.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpcdn.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@jwpltx.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@google.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@gstatic.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googleapis.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googletagmanager.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@googleusercontent.com$xmlhttprequest,domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to
+@@google-analytics.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|mcloud.to|mcloud2.to|mp4upload.com
+@@amung.us$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@doubleclick.net$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@facebook.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@facebook.net$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center
+@@twitter.com$domain=aniwave.to|aniwave.id|aniwave.club|aniwave.center|twitter.com
+aniwave.*##.adx
+aniwave.*##+js(nowoif)
